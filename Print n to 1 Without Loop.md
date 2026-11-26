@@ -21,9 +21,28 @@ The problem can be found at the following link: [Question Link](https://www.geek
 - **Expected Time Complexity:** O(n)
 - **Expected Auxiliary Space Complexity:** O(n)
 
-### Accepted Solutions (1)
+### Accepted Solutions (2)
 
 #### Solution 1 (Java)
+
+- **Submitted:** 2026-11-26 21:11:49
+- **Status:** Correct
+- **Marks:** 0
+
+```java
+class Solution {
+    public void printNos(int n) {
+        // code here
+        if(n == 0) return;
+        
+        System.out.print(n + " ");
+        printNos(n-1);
+
+    }
+}
+```
+
+#### Solution 2 (Java)
 
 - **Submitted:** 2026-10-20 11:42:55
 - **Status:** Correct
@@ -42,4 +61,4 @@ class Solution {
 }
 ```
 
-*Generated on: 10/20/2026, 11:44:24 AM*
+*Generated on: 11/26/2026, 9:12:18 PM*
